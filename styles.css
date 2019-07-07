@@ -12,10 +12,19 @@ li {
   margin-bottom: 1rem;
 }
 
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
 @media screen and (min-width: 800px) {
   ul {
     display: flex;
     align-items: center;
+    justify-content: center;
   }
 
   li {
