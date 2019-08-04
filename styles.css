@@ -6,6 +6,10 @@ ul {
   margin: 0px;
   padding: 0px;
   list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 li {
@@ -22,9 +26,7 @@ p {
 
 @media screen and (min-width: 800px) {
   ul {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: row;
   }
 
   li {
