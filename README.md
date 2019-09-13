@@ -55,3 +55,5 @@ of the media screen.
 4.  Use Github Desktop to change your current branch from `master` to `feature/family` (This is called "Checking out" a branch). What differences do you see between this branch and the master branch? You might notice that the width of these new characters are not proportional with each other. Keeping Marge at the preset 59px, edit the widths of the other characters from the `styles.css` file. Commit these changes and push them to the `feature/family` branch of your personal remote repository.
 
 5.  Tech giants like Facebook, Twitter, and Google all use version control systems to manage their projects (Be that Git, another commercially available option like Mercurial, or an internally developed alternative), but they don’t make most of their code publicly available online. Why do you think this is?
+
+most tech giants don't make most of their code publicly available because there is the security risks associated with it, people's personal information is at stake, and that people can make changes to the code and use it for there benefit.
