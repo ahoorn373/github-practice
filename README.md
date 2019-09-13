@@ -1,6 +1,8 @@
 # Simpsons Characters
 An example HTML webpage used for the 2019 NIC IMG Git Workshop
 
+[Presentation Slides](https://docs.google.com/presentation/d/1apWqmDDVPCwSubBca8T_cs8uOsQ96R4W0bNaROXCsZM/edit?usp=sharing)
+
 ## Getting Setup
 
 1. Create a Github account if you don’t have one already. The free plan should be fine for now.
