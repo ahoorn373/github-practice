@@ -28,7 +28,7 @@ An example HTML webpage used for the 2019 NIC IMG Git Workshop
    4. Type `git remote set-url origin <remote-url>` into your terminal (Make sure to replace `<remote-url>` with the url you copied to your clipboard after setting up a personal repository.) and press enter. This command changes the origin remote from `/chris-geelhoed/simpsons-characters` to your own personal Github repository.
 
    5. Now if you run `git remote -v` from your terminal you should see the origin remote references your personal Github repo.
-   
+
 Congrats! You are now setup to use Github and Github Desktop and can get going on the workshop exercises!
 
 ## Exercises
@@ -37,7 +37,12 @@ Congrats! You are now setup to use Github and Github Desktop and can get going o
 
 1.  A some point in time Bootstrap CSS was included in the project via a public CDN. Browse the repository’s history to identify the SHA hash, commit time, and code changes that correspond to this change. Hint: You don’t need to inspect any HTML or CSS to find this. Instead, refer to the project’s git history.
 
+submitted on: July 7, 2019   SHA Hash: 16d68c4   code changes: <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+
 2.  Find commit `b674e87` and the subsequent commit `c1299a8` in the project’s history. Which commit message do you think is better? Why? Hint: Imagine that these changes were made by a teammate or coworker. Which commit would be more helpful to you?
+
+the c1299a8 is a better commit message, because it has a more detailed heading and more control
+of the media screen.
 
 3.  Public websites often use “meta tags” to control how content is displayed on social media websites like Facebook or Twitter. Add the following lines of code to the main head tag of `index.html`, right below the final stylesheet reference. This will ensure that “The Simpsons Characters” will be taken as the page title.
 ```
